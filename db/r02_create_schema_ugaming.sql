@@ -1,0 +1,2 @@
+CREATE SCHEMA ugaming
+    AUTHORIZATION postgres;

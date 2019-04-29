@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "UGaming",
+		"_postman_id": "228ce0f0-488d-690a-45b6-33cd7ac3f768",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Leaderboard",
+			"request": {
+				"url": "http://localhost:5000/api/UGaming/Leaderboard",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GameResult",
+			"request": {
+				"url": "http://localhost:5000/api/UGaming/GameResult",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"PlayerId\" : 7,\r\n\t\"GameId\" : 1,\r\n\t\"Win\" : 99,\r\n\t\"TimeStamp\" : \"2017-09-25 12:13:00\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
